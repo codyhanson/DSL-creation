@@ -1,0 +1,8 @@
+
+HelloWorldModel:
+  'say hello to:' to_greet+=Who[',']
+;
+
+Who:
+  name = /[^,]*/
+;
